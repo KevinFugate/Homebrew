@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
-	<info>User Edited files</name>
+	<info>
+		<name>User Edited files</name>
 		<update version="0.0.2">
 			<file name="user.index" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/user.index"/>
 		</update>
