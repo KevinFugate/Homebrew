@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>User Edited files</name>
+		<update version="0.0.1">
+			<file name="user.index" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/user.index"/>
+		</update>
+	</info>
+	<files>
+		<file name="dillonsdealings.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/dillonsdealings.xml" />
+	</files>
+</index>
