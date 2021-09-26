@@ -3,7 +3,7 @@
 	<info>
 		<name>User Edited files</name>
 		<update version="0.0.2">
-			<file name="user.index" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/user.index"/>
+			<file name="homebrew.index" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/homebrew.index"/>
 		</update>
 	</info>
 	<files>
