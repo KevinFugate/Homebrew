@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Dillon's Dealings</name>
+        <update version="0.0.1">
+            <file name="dillonsdealings.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/dungeon-masters-guide/items/items-weapons.xml" />
+        </update>
+    </info>
+    <element name="Mage Plate" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_MAGE_PLATE">
+        <supports>Sorcerer, Wizard</supports>
+        <description>
+            <p>You cover yourself in a spectral suit of plate. You are considered proficient with this armor and do not have to meet a strength requirement. While active this spell adds your Intelligence modifier to your AC. </p>
+            <p class="indent">This effect does not stack with medium or heavy armor.</p>
+        </description>
+        <setters>
+            <set name="keywords">armor</set>
+            <set name="level">2</set>
+            <set name="school">Abjuration</set>
+            <set name="time">1 action</set>
+            <set name="duration">Up to 8 hours.</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">true</set>
+            <set name="materialComponent">an ingot of iron or better quality metal</set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Hack N' Slash" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_HACK_SLASH">
+        <supports>Sorcerer, Wizard</supports>
+        <description>
+            <p>You can cast this spell on a successful melee attack hit. When you cast this spell you make an additional melee attack against that target but the attack has a -2 penalty applied.</p>
+            <p>This spell can be cast using spells slots of 5th, 7th, or 9th to add one additional attack each but for each increase in spell slot an additional -1 is applied. I.e. if casted as a 9th level spell you would make 4 extra attacks with a -2,-3,-4, and -5 respectively.</p>
+        </description>
+        <setters>
+            <set name="keywords">melee,hack,slash</set>
+            <set name="level">3</set>
+            <set name="school">Evocation</set>
+            <set name="time">1 bonus action</set>
+            <set name="duration">Instantaneous</set>
+            <set name="range">Self</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent"></set>
+            <set name="isConcentration">false</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Dragon's Fang" type="Magic Item" source="Dillon's Dealings" id="ID_DD_ITEM_DRAGONS_FANG">
+        <description>
+            <p>You gain a +2 bonus to attack and damage rolls made with this magic weapon.</p>
+            <p class="indent"><strong><em>Draconic Might</em></strong> Before you take your attack action on your turn with this weapon you can use a bonus action to declare one of the following damage types: lightning, fire, acid, poison, or cold. Your attacks with this weapon for the rest if this turn deal an additional d8 of your chosen damage type on top of the weapons normal damage. If your attack target is draconic this weapon ignores resistances but not immunities</p>
+        </description>
+        <setters>
+            <set name="keywords">longbow</set>
+            <set name="category">Magic Weapons</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="longbow">Weapon</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Legendary</set>
+            <set name="weapon">Longbow</set>
+            <set name="enhancement">2</set>
+        </setters>
+    </element>
+</elements>
