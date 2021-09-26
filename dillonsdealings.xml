@@ -2,15 +2,15 @@
 <elements>
     <info>
         <name>Dillon's Dealings</name>
-        <update version="0.0.1">
-            <file name="dillonsdealings.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/dungeon-masters-guide/items/items-weapons.xml" />
+        <update version="0.0.2">
+            <file name="dillonsdealings.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/dillonsdealings.xml" />
         </update>
     </info>
     <element name="Mage Plate" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_MAGE_PLATE">
         <supports>Sorcerer, Wizard</supports>
         <description>
             <p>You cover yourself in a spectral suit of plate. You are considered proficient with this armor and do not have to meet a strength requirement. While active this spell adds your Intelligence modifier to your AC. </p>
-            <p class="indent">This effect does not stack with medium or heavy armor.</p>
+            <p class="indent">This effect does not stack with medium or heavy armor. TEST UPDATE</p>
         </description>
         <setters>
             <set name="keywords">armor</set>
