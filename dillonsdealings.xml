@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Dillon's Dealings</name>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="dillonsdealings.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/dillonsdealings.xml" />
         </update>
     </info>
@@ -10,7 +10,7 @@
         <supports>Sorcerer, Wizard</supports>
         <description>
             <p>You cover yourself in a spectral suit of plate. You are considered proficient with this armor and do not have to meet a strength requirement. While active this spell adds your Intelligence modifier to your AC. </p>
-            <p class="indent">This effect does not stack with medium or heavy armor. TEST UPDATE</p>
+            <p class="indent">This effect does not stack with medium or heavy armor.</p>
         </description>
         <setters>
             <set name="keywords">armor</set>
