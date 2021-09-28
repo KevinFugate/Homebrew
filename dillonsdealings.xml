@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Dillon's Dealings</name>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="dillonsdealings.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/dillonsdealings.xml" />
         </update>
     </info>
@@ -64,4 +64,87 @@
             <set name="enhancement">2</set>
         </setters>
     </element>
+    <element name="Improved Shield" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_IMPROVED_SHIELD">
+    <supports>Sorcerer, Wizard, Artificer</supports>
+    <description>
+      <p>When an ally you can see within 5 feet of you is targeted for an attack you can use your reaction to apply a +3 bonus to their AC until the end of their next turn.</p>
+      <p class="indent"></p>
+    </description>
+    <setters>
+      <set name="keywords">shield, AC</set>
+      <set name="level">2</set>
+      <set name="school">abjurration</set>
+      <set name="time">reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element><element name="Neurostrike" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_Neurostrike">
+    <supports>Sorcerer, Wizard, Warlock</supports>
+    <description>
+      <p>When you make a sucessful melee wepon attack you can cast this spell. You add 1d8 psychic damage to the melee weapon damage.</p>
+      <p class="indent">This spell’s damage increases by 1d8 for each additional spell slot level used.</p>
+    </description>
+    <setters>
+      <set name="keywords">melee, psychic</set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time"> bonus action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">melee</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Arcane Assault" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_ARCANE_ASSAULT">
+    <supports>Sorcerer, Wizard</supports>
+    <description>
+      <p>When you make a sucessful melee weapon attack you can cast this spell as a bonus action. you add 2 addtional d4 force damage to the attack, the shield spell can be cast as a reaction to negate the force damage..</p>
+      <p class="indent">This spell’s damage increases by 1d6 for each spell slot level over first used for casting.</p>
+    </description>
+    <setters>
+      <set name="keywords">force, melee, shield</set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">bonus action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">melee</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Jumping Spider Fang" type="Spell" source="Dillon's Dealings" id="ID_PDD_SPELL_JUMPING_SPIDER_FANG">
+    <supports>Wizard, Artificer</supports>
+    <description>
+      <p>When you make a sucessful ranged weapon attack or thrown weapon attack you can cast this spell as a bonus action. the projectile leaps from the creature it struck to another hostile creature of your choosing with in your INT mod x5 feet, that creatures takes 1d4 poison damage and must make a sucessful constitution saving throw against your spell save DC. On a failure that target is poisoned until the end of their next turn.</p>
+      <p class="indent">This spell’s damage increases by 1d4 for each higher level spellt slot used when casting.</p>
+    </description>
+    <setters>
+      <set name="keywords">poison</set>
+      <set name="level">1</set>
+      <set name="school">enchantment</set>
+      <set name="time">bonus action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">see spell description</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
 </elements>
