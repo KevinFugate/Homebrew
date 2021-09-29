@@ -86,6 +86,7 @@
       <set name="isConcentration">false</set>
       <set name="isRitual">false</set>
     </setters>
+  </element>
 <element name="Chaos Gate" type="Spell" source="Thorin's Theories" id="ID_DD_SPELL_CHAOS_GATE">
     <supports>Sorcerer, Warlock, Wizard</supports>
     <description>
