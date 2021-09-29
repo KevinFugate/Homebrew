@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Dillon's Dealings</name>
-        <update version="0.0.4">
+        <update version="0.0.5">
             <file name="dillonsdealings.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/dillonsdealings.xml" />
         </update>
     </info>
@@ -127,7 +127,7 @@
     </setters>
   </element>
   <element name="Jumping Spider Fang" type="Spell" source="Dillon's Dealings" id="ID_PDD_SPELL_JUMPING_SPIDER_FANG">
-    <supports>Wizard, Artificer</supports>
+    <supports>Wizard, Artificer, Bard</supports>
     <description>
       <p>When you make a sucessful ranged weapon attack or thrown weapon attack you can cast this spell as a bonus action. the projectile leaps from the creature it struck to another hostile creature of your choosing with in your INT mod x5 feet, that creatures takes 1d4 poison damage and must make a sucessful constitution saving throw against your spell save DC. On a failure that target is poisoned until the end of their next turn.</p>
       <p class="indent">This spell’s damage increases by 1d4 for each higher level spellt slot used when casting.</p>
@@ -147,4 +147,498 @@
       <set name="isRitual">false</set>
     </setters>
   </element>
+  <element name="Elemental Assault" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_ELEMENTAL_ASSAULT">
+    <supports>Sorcerer, Wizard, Artificer, Warlock</supports>
+    <description>
+      <p>When you make a sucessful melee weapon attack you can cast this spell as a bonus action. When you cast this spell you can add 2d8 additional to damage to the weapon attack damage, you pick fire, lightning, cold, acid, or poison for the damage type.</p>
+      <p class="indent">This spell’s damage increases by 1d8 for each spell slot of a higher level used for the casting.</p>
+    </description>
+    <setters>
+      <set name="keywords">acid, poison, cold, fire, lightning</set>
+      <set name="level">2</set>
+      <set name="school">Evocation</set>
+      <set name="time">bonus action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">melee</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+</element>
+    <element name="Arc Strike" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_ARC_STRIKE">
+    <supports>Sorcerer, Wizard, Artificer, Bard</supports>
+    <description>
+      <p>When you make a sucessful melee weapon attack you can cast this spell as a bonus action. you add 1d8 radiant damage to the weapon attack damage.</p>
+      <p class="indent">This spell’s damage increases by 1d8 for spell slot of a higher level used for casting.</p>
+    </description>
+    <setters>
+      <set name="keywords">radiant, melee</set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">bonus action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">melee</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="NecroStrike" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_NECROSTRIKE">
+    <supports>Wizard, Cleric</supports>
+    <description>
+      <p>When you make a sucessful melee weapon attack you can cast this spell as a bonus action. you add 1d8 necrotic damage to the melee weapon attack.</p>
+      <p class="indent">This spell’s damage increases by 1d8 when spell slots of higher levels are used for the casting.</p>
+    </description>
+    <setters>
+      <set name="keywords">necrotic, melee</set>
+      <set name="level">1</set>
+      <set name="school">Necromancy</set>
+      <set name="time">Bonus Action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Melee</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Water Stride" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_WATER_STRIDE">
+    <supports>Sorcerer, Wizard, Artificer, Druid, Ranger, Bard</supports>
+    <description>
+      <p>When you cast this spell you cause your weight to become similar to that of silk, you become light enough to walk on water for 10 minutes.</p>
+    </description>
+    <setters>
+      <set name="keywords">water</set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">10 minutes</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent" > A 6 inch strand of silk </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+<element name="Web-Chute" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_WEB_CHUTE">
+    <supports>Wizard, Druid, Ranger, Bard</supports>
+    <description>
+      <p>You can cast this spell as a reaction only when you fall from a height of 15 feet or more. You conjure forth a parachute made from a silky like substance akin to that of spider web, the chute allows you to make a DC 13 dexterity save with advantage. On a failed save you take half of the normal fall damage you would've taekn otherwise and on a sucessful save you take no fall damage and land in a manner of your choosing.</p>
+    </description>
+    <setters>
+      <set name="keywords">fall, reaction</set>
+      <set name="level">2</set>
+      <set name="school">Conjuration</set>
+      <set name="time">reaction</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> a strand of spider silk at least 8 inches in length</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+<element name="Spider Speak" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_SPIDER_SPEAK">
+    <supports>Wizard, Druid, Ranger</supports>
+    <description>
+      <p>When you cast this spell you gain the ability to speak to spiders or any similar creatures (i.e. fiends or abjurrations assuming the form of a spider).</p>
+    </description>
+    <setters>
+      <set name="keywords">speak, creature, communicate</set>
+      <set name="level">1</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 hour</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> a deceased spider to be consumed by the caster.</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+<element name="Spinal Lance" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_SPINAL_LANCE">
+    <supports>Wizard, Warlock, Cleric</supports>
+    <description>
+      <p>When you cast this spell you conjure forth a spear like weapon appearing to be made from a spinal column. You are considered proficient with this weapon and it uses your spellcasting modifier for both attack and damage rolls, the spear itself doing 1d8 piercing damage</p>
+      <p class="indent">If the material component used for the casting of this spell is the correct bone but from a humanoid subject then this spell no longer requires concentration.</p>
+    </description>
+    <setters>
+      <set name="keywords">melee, lance, necromancy</set>
+      <set name="level">1</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute concentration</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> A vertebrae from any creature.</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+<element name="Osteo Archery" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_BONE_BOW">
+    <supports>Wizard, Warlock, Cleric</supports>
+    <description>
+      <p>When you cast this spell you conjure forth a bow like weapon appearing to be made from the limb bones of some creature. You are considered proficient with this weapon and it uses your spellcasting modifier for both attack and damage rolls the bow itself doing 1d8 piercing damage, additionally when conjured the bow does come with a quiver of 1d4+ Your spellcasting mod arrows</p>
+      <p class="indent">If the material component used for the casting of this spell is the correct bone but from a humanoid subject then this spell no longer requires concentration.</p>
+    </description>
+    <setters>
+      <set name="keywords">ranged, bow, necromancy</set>
+      <set name="level">1</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute concentration</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> A Limb bone from any creature.</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+<element name="Bone Shield" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_BONE_SHIELD">
+    <supports>Wizard, Warlock, Cleric</supports>
+    <description>
+      <p>When you cast this spell you conjure forth a shield appearing to be made from a bones. You are considered proficient with this shield and gain the normal +2 benefit to you AC.</p>
+      <p class="indent">If the material component used for the casting of this spell is the correct bone but from a humanoid subject then this spell no longer requires concentration.</p>
+    </description>
+    <setters>
+      <set name="keywords">Shield, AC, necromancy</set>
+      <set name="level">1</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute concentration</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> A bone from any creature.</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+<element name="Skeletal Steed" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_SKELETAL_STEED">
+    <supports>Wizard, Warlock, Cleric, Paladin</supports>
+    <description>
+      <p>When you cast this spell you conjure forth a skeletal version of the creature the bone used for the material component of this spell came from, it has the stats of that creature but it considered undead and is bonded to you for the duration of the spell to be used as a mount, if you are not proficient in mounted combat you are treated as if you are while mounted on this creature.</p>
+    </description>
+    <setters>
+      <set name="keywords">mount, summon, necromancy</set>
+      <set name="level">2</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">8 hours</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> Any bone from a creature that would be a suitable mount for a character of your size class.</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+<element name="Necroshift" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_NECROSHIFT">
+    <supports>Wizard, Cleric</supports>
+    <description>
+      <p>After you cast this spell for the remainder of its duration whenever you would cast a necromancy spell, that would normally do necrotic damage to a target or targets, it instead heals them for the rolled amount.</p>
+    </description>
+    <setters>
+      <set name="keywords">necromancy, heal, necrotic</set>
+      <set name="level">3</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 hour</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+<element name="Jenson's Cellular Regeneration" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_CELLULAR_REGENERATION">
+    <supports>Wizard</supports>
+    <description>
+      <p>You cast this spell by making a ranged spell attack roll against an ally creature within range. On a hit the target regains 1d6 + You INT modifier hit points</p>
+      <p class="indent">If the spell slot used for the casting of this spell is of second level or higher then the healing effect is increased by 1d6 per spell level.</p>
+    </description>
+    <setters>
+      <set name="keywords">heal, necromancy</set>
+      <set name="level">1</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">instantaneous</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+</element>
+<element name="Jenson's Schism" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_SCHISM">
+    <supports>Wizard, Warlock, Sorcerer</supports>
+    <description>
+      <p>When you cast this spell you are enabled with the ability to have uo to 2 concentration spells active at one time for the spell's duration, however if you would be made to make a constitution saving throw to maintain concentration on either spell you fail the save automatically and this spell comes to an early end.</p>
+    </description>
+    <setters>
+      <set name="keywords">necromancy, concentration</set>
+      <set name="level">3</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 hour</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> A piece of brain matter from any creature. </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+<element name="Conjure Library" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_CONJURE_LIBRARY">
+    <supports>Wizard</supports>
+    <description>
+      <p>When you cast this spell you conjure forth a Swarm of Animated Books. The stat block for the Swarm of Animated Books is found on page 19 of Candlekeep Adventures. The Swarm uses for INT modifier for attack and damage rolls and takes its turn immediately after you in the turn order.</p>
+      <p class="indent">If the book used as the material component of this spell contained any spells intself then the summoned creature gains the ability to cast magic missile as an action on its turn.</p>
+    </description>
+    <setters>
+      <set name="keywords">conjuration, summon</set>
+      <set name="level">2</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 hour</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> A book of at least 50 pages in length. </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+<element name="Enhanced DarkVision" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_ENHANCED_DARKVISION">
+    <supports>Wizard, Sorcerer, Druid</supports>
+    <description>
+      <p>When you cast this spell you gain the ability to see in both magical and non magical darkness for a distance equal to 120 feet.</p>
+    </description>
+    <setters>
+      <set name="keywords">darkvision, transmutation</set>
+      <set name="level">4</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">8 hours</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> A whole dried carrot. </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+<element name="Ghostwalk" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_GHOSTWALK">
+    <supports>Wizard, Warlock</supports>
+    <description>
+      <p>When you cast this spell you become both invisible and intangible. You gain the ability to pass through any solid object and have a set movement speed of 30 feet. When this spell ends you are returned to the original location that you cast the spell. This spell ends early if you cast a spell, take the attack action, or interact with any solid objects other than passing through them.</p>
+    </description>
+    <setters>
+      <set name="keywords">transmutation, ghost, invisibile</set>
+      <set name="level">4</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> A vial of ectoplasm. </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+  <element name="Rite of Radiance" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_RITE_OF_RADIANCE">
+    <supports>Cleric, Paladin</supports>
+    <description>
+      <p>When you cast you can touch any weapon and imbue it with holy light. The effected weapon emits dim light and does an additional 1d4 radiant damage. An additional 1d4 radiant damage is added if the weapon effected by this spell is being used to make an attack against a fiend or an undead creature.</p>
+      <p class="indent">If the spell lot used for this spell is of 3rd level or higher the effect may be granted to one additional target for each spell slot level used over 2nd.</p>
+    </description>
+    <setters>
+      <set name="keywords">melee, ranged, radiant, enchantment</set>
+      <set name="level">2</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute concentration</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"/>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+<element name="Flint's Fire Axe" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_FLINTS_FIRE_AXE">
+    <supports>Paladin, Cleric</supports>
+    <description>
+      <p>When you cast this spell you target an axe of any sort within range. The axe immediately has an aura of flame emit from the blade that doesnt seem hot to the touch. For the spell's duration the target axe emits a glow of dim light and when used for a sucessful melee weapon attack the axe does an additional 1d6 fire damage and 1d6 radiant damage.</p>
+      <p class="indent">If higher level spell slots are used for this spells casting then the effect damage is increased by 1d4 each for each spell slot over 2nd level used.</p>
+    </description>
+    <setters>
+      <set name="keywords">melee, fire, axe, enchantment</set>
+      <set name="level">2</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 hour</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> An Axe of any sort. </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+<element name="Migraine" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_MIGRAINE">
+    <supports>Wizard, Warlock</supports>
+    <description>
+      <p>You concentrate your Pscionic presence into a psychic wave eminating from your body. All hostile targets within the area of effect must succeed an intelligence saving throw against your spell save DC or suffer from a migraine that causes disadvantage on all non physical based savings throw for the duration of the spell.</p>
+      <p class="indent"> At 5th, 11th, and 17th levels the area of effect of the spell is increased by 5ft in each direction at each interval.</p>
+    </description>
+    <setters>
+      <set name="keywords">psychic, savings throw</set>
+      <set name="level">0</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">15 foot square centered on self</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"/>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Pyrokinesis" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_PYROKINESIS">
+    <supports>Wizard, Warlock</supports>
+    <description>
+      <p>taking a piece of flammable material you concentrate your pscionic prowess to ignite this material and you throw it at a target in range using your spell modifier for the attack roll. on a successful hit the target takes 1d4 fire damage and 1d4 psychic damage.</p>
+      <p class="indent">. you can upcast this spell using 3rd, 5th, 7th, or 9th levels to increase the damage die by one each for the upcasting.. 3rd being 2 each, 5th being 3 each and so on and so forth</p>
+    </description>
+    <setters>
+      <set name="keywords">psychic, fire</set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> A piece of flammable material that can be thrown. </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+ <element name="Intellect Pact" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_INTELLECT_PACT">
+    <supports>Wizard, Warlock</supports>
+    <description>
+      <p>Using the brain of an animal you conjure forth an Intellect Devourer and bind it to your service for 4 hours. The Intellect Devourer uses the stat block from the monster manual and moves and attacks on your turn.</p>
+</description>
+    <setters>
+      <set name="keywords">Summon</set>
+      <set name="level">3</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> The brain of any animal. </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+  <element name="Mind Meld" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_MIND_MELD">
+    <supports>Wizard, Warlock</supports>
+    <description>
+      <p>You and a willing sentient creature perform the ritual together in which you form a temporary psychic bond. For the duration of the spell you and the melded target can speak telepathically and share a field of vision if both sides agree to it.</p>
+</description>
+    <setters>
+      <set name="keywords">Mind, enchantment</set>
+      <set name="level">1</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">24 hours</set>
+      <set name="range">1 Willing Target</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> A hair from the intended target. </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+<element name="Psy-Sense" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_PSY_SENSE">
+    <supports>Wizard, Warlock</supports>
+    <description>
+      <p>You concentrate your power into your Mind's Eye, doing so improves all of your sensory perception. For the duration of the spell you can add your intelligence modifer to any perception, insight, and investigation skill checks. If this spell is upcast using a 2nd level spell slot for the duration of the spell you know if someone is lying to you.</p>
+</description>
+    <setters>
+      <set name="keywords">Mind, enchantment</set>
+      <set name="level">1</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">10 Minutes</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+ <element name="Shackle" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_SHACKLE">
+    <supports>Wizard, Warlock</supports>
+    <description>
+      <p>You cause a target within range to make an intellgence saving throw against your spell save DC, on a fail the target becomes trapped in their own mind stuck in a vision seeing themselves chained and bound. For the duration of the spell or until the target takes damage the target is considered restrained.</p>
+</description>
+    <setters>
+      <set name="keywords">Mind, restrain, condition</set>
+      <set name="level">2</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
 </elements>
