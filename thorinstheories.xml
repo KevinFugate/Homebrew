@@ -91,7 +91,7 @@
     <description>
       <p>When you cast this spell you create a chaotic terrain in a 15 foot square centered on yourself. Whenever a creature would move into this area or start their turn there they must succeed on a charisma saving throw against your spell save DC or be teleported to a random location within 30 feet of the square, on a sucessful save the creature may move through the terrain but it is considered difficult therrain to for them.</p>
     </description>
-    <setters
+    <setters>
       <set name="keywords">teleport, conjuration</set>
       <set name="level">5</set>
       <set name="school">Conjuration</set>
