@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Dillon's Dealings</name>
-        <update version="0.0.5">
+        <update version="0.0.6">
             <file name="dillonsdealings.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/dillonsdealings.xml" />
         </update>
     </info>
@@ -629,6 +629,46 @@
       <set name="keywords">Mind, restrain, condition</set>
       <set name="level">2</set>
       <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+ <element name="Foresight" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_FORESIGHT">
+    <supports>Wizard, Druid</supports>
+    <description>
+      <p>You clear your mind and foresee an attack that is coming to you and you know what actions you need to take to avoid it. If you would be hit by an attack before the spell ends you can chose to use your reaction to have the attack miss you altogether. Once you have done this the spell's effect ends.</p>
+</description>
+    <setters>
+      <set name="keywords">Mind, divination</set>
+      <set name="level">2</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">A silk cloth worth at least 50 gp.</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+ <element name="Call It Out" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_CALL_IT_OUT">
+    <supports>Wizard, Druid</supports>
+    <description>
+      <p>You foresee an ill omen befalling one of your allies and feel the need to warn them. You target an ally within range and the next time that ally would make a save to avoid damage/take less damage they have advantage on said save due to the foresight you have imparted.</p>
+</description>
+    <setters>
+      <set name="keywords">advantage, divination</set>
+      <set name="level">1</set>
+      <set name="school">Divination</set>
       <set name="time">1 action</set>
       <set name="duration">1 round</set>
       <set name="range">30 feet</set>
