@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+  <info>
+        <name>Thorin's Theories</name>
+        <update version="0.0.6">
+            <file name="dillonsdealings.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/thorinstheories.xml" />
+        </update>
+    </info>
+<element name="Thorin's Frost Hammer" type="Spell" source="Thorin's Theories" id="ID_DD_SPELL_THORINS_FROST_HAMMER">
+    <supports>Paladin, Cleric</supports>
+    <description>
+      <p>When you cast this spell you target a hammer of any sort within range. The hammer immediately has an aura of frost emitted from it that doesnt seem cold to the touch. For the spell's duration the target axe emits a glow of dim light and when used for a sucessful melee weapon attack the axe does an additional 1d6 cold damage and 1d6 radiant damage.</p>
+      <p class="indent">If higher level spell slots are used for this spells casting then the effect damage is increased by 1d4 each for each spell slot over 2nd level used.</p>
+    </description>
+    <setters>
+      <set name="keywords">melee, cold, hammer, enchantment</set>
+      <set name="level">2</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 hour</set>
+      <set name="range">5 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> A hammer of any sort. </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+<element name="Thorin's Helping Hand" type="Spell" source="Thorin's Theories" id="ID_DD_SPELL_THORINS_HELPING_HAND">
+    <supports>Cleric</supports>
+    <description>
+      <p>When you cast this spell you target an ally within range, until the end of your next turn that ally has advantage on death saving throws.</p>
+    </description>
+    <setters>
+      <set name="keywords">death, advantage</set>
+      <set name="level">3</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+<element name="Halon's Arcane Precision" type="Spell" source="Thorin's Theories" id="ID_DD_SPELL_HALONS_ARCANE_PRECISION">
+    <supports>Ranger</supports>
+    <description>
+      <p>When you cast this spell the next ranged attack roll you make is made with advantage. If either of the dice rolled are critical hits then you add one additional set of damage die to the attack damage roll.</p>
+    </description>
+    <setters>
+      <set name="keywords">ranged, advantage, critical, evocation</set>
+      <set name="level">2</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">1 round or until next sucessful ranged attack.</set>
+      <set name="range">self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">A feather from any bird of prey. </set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+<element name="Semaj's Roaring Battlecry" type="Spell" source="Thorin's Theories" id="ID_DD_SPELL_SEMAJS_ROARING_BATTLECRY">
+    <supports>Ranger, Druid</supports>
+    <description>
+      <p>When you cast this spell you assume an imposing stance and let out a battle lust filled battlecry, all allies within 30 feet that can hear you gain advantage on their attack rolls until the end of your next turn. All hostile creatures within range that can hear you make charisma saving throws against you spell save DC, on a failed save hostile creatures have disasvantage on all attack rolls until the end of your next turn.</p>
+    </description>
+    <setters>
+      <set name="keywords">advantage, range, attack</set>
+      <set name="level">3</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 round</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent"></set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+<element name="Chaos Gate" type="Spell" source="Thorin's Theories" id="ID_DD_SPELL_CHAOS_GATE">
+    <supports>Sorcerer, Warlock, Wizard</supports>
+    <description>
+      <p>When you cast this spell you create a chaotic terrain in a 15 foot square centered on yourself. Whenever a creature would move into this area or start their turn there they must succeed on a charisma saving throw against your spell save DC or be teleported to a random location within 30 feet of the square, on a sucessful save the creature may move through the terrain but it is considered difficult therrain to for them.</p>
+    </description>
+    <setters
+      <set name="keywords">teleport, conjuration</set>
+      <set name="level">5</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 hour</set>
+      <set name="range">15 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent"> A cat eye</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+
+</elements>
