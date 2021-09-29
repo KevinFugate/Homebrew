@@ -3,7 +3,7 @@
   <info>
         <name>Thorin's Theories</name>
         <update version="0.0.6">
-            <file name="dillonsdealings.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/thorinstheories.xml" />
+            <file name="thorinstheories.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/thorinstheories.xml" />
         </update>
     </info>
 <element name="Thorin's Frost Hammer" type="Spell" source="Thorin's Theories" id="ID_DD_SPELL_THORINS_FROST_HAMMER">
