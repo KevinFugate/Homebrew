@@ -2,7 +2,7 @@
 <elements>
   <info>
         <name>Thorin's Theories</name>
-        <update version="0.0.6">
+        <update version="0.0.7">
             <file name="thorinstheories.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/thorinstheories.xml" />
         </update>
     </info>
