@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Dillon's Dealings</name>
-        <update version="0.0.7">
+        <update version="0.0.8">
             <file name="dillonsdealings.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/dillonsdealings.xml" />
         </update>
     </info>
