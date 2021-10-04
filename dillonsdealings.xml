@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Dillon's Dealings</name>
-        <update version="0.0.8">
+        <update version="0.0.9">
             <file name="dillonsdealings.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/dillonsdealings.xml" />
         </update>
     </info>
@@ -894,7 +894,7 @@
         </rules>
     </description>
     </element>
-<element name="In Theory" type="Feat" source="Dillon's Dealings" id="ID_DD_IN_THEORY">
+<element name="In Theory" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_IN_THEORY">
         <prerequisite></prerequisite>
         <requirements>[type:spell]</requirements>
         <description>
@@ -907,7 +907,7 @@
         </rules>
     </description>
     </element>
-<element name="In Practice" type="Feat" source="Dillon's Dealings" id="ID_DD_IN_PRACTICE">
+<element name="In Practice" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_IN_PRACTICE">
         <prerequisite>In Theroy Feat.</prerequisite>
         <requirements>[type:spell]</requirements>
         <description>
@@ -920,7 +920,7 @@
         </rules>
     </description>
     </element>
-<element name="Alpha" type="Feat" source="Dillon's Dealings" id="ID_DD_ALPHA">
+<element name="Alpha" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_ALPHA">
         <prerequisite></prerequisite>
         <requirements>[type:spell]</requirements>
         <description>
@@ -933,7 +933,7 @@
         </rules>
     </description>
     </element>
-<element name="Expert" type="Feat" source="Dillon's Dealings" id="ID_DD_EXPERT">
+<element name="Expert" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_EXPERT">
         <prerequisite>Skilled Feat.</prerequisite>
         <requirements>[type:spell]</requirements>
         <description>
@@ -946,7 +946,7 @@
         </rules>
     </description>
     </element>
-<element name="Juggernaut" type="Feat" source="Dillon's Dealings" id="ID_DD_JUGGERNAUT">
+<element name="Juggernaut" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_JUGGERNAUT">
         <prerequisite>Charger Feat or Barbarian Class</prerequisite>
         <requirements>[type:spell]</requirements>
         <description>
@@ -959,7 +959,7 @@
         </rules>
     </description>
     </element>
-<element name="Street Magician" type="Feat" source="Dillon's Dealings" id="ID_DD_STREET_MAGICIAN">
+<element name="Street Magician" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_STREET_MAGICIAN">
         <prerequisite> Level 6 or higher, Non-spellcasting base class.</prerequisite>
         <requirements>[type:spell]</requirements>
         <description>
@@ -972,7 +972,7 @@
         </rules>
     </description>
     </element>
-<element name="Gift of Gab" type="Feat" source="Dillon's Dealings" id="ID_DD_GIFT_OF_GAB">
+<element name="Gift of Gab" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_GIFT_OF_GAB">
         <prerequisite> Linguist Feat, Charisma score of 13 or higher.</prerequisite>
         <requirements>[type:spell]</requirements>
         <description>
@@ -985,7 +985,7 @@
         </rules>
     </description>
     </element>
-<element name="In the Palm of Your Hand" type="Feat" source="Dillon's Dealings" id="ID_DD_IN_THE_PALM_OF_YOUR_HAND">
+<element name="In the Palm of Your Hand" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_IN_THE_PALM_OF_YOUR_HAND">
         <prerequisite> Level 10</prerequisite>
         <requirements>[type:spell]</requirements>
         <description>
@@ -998,7 +998,7 @@
         </rules>
     </description>
     </element>
-<element name="Profit" type="Feat" source="Dillon's Dealings" id="ID_DD_PROFIT">
+<element name="Profit" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_PROFIT">
         <prerequisite> Bard Class or Entertainer Background</prerequisite>
         <requirements>[type:spell]</requirements>
         <description>
@@ -1011,7 +1011,7 @@
         </rules>
     </description>
     </element>
-<element name="Falconeer" type="Feat" source="Dillon's Dealings" id="ID_DD_FALCONEER">
+<element name="Falconeer" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_FALCONEER">
         <prerequisite> Proficiency in the Animal Handling Skill, Wisdom or Charisma score of 13 or higher</prerequisite>
         <requirements>[type:spell]</requirements>
         <description>
@@ -1024,7 +1024,7 @@
         </rules>
     </description>
     </element>
-<element name="Totem Bearer" type="Feat" source="Dillon's Dealings" id="ID_DD_TOTEM_BEARER">
+<element name="Totem Bearer" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_TOTEM_BEARER">
         <prerequisite> Wisdom score of 13 or higher, Constitution score of 13 or higher</prerequisite>
         <requirements>[type:spell]</requirements>
         <description>
@@ -1045,7 +1045,7 @@
         </rules>
     </description>
     </element>
-<element name="Runewright" type="Feat" source="Dillon's Dealings" id="ID_DD_RUNEWRIGHT">
+<element name="Runewright" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_RUNEWRIGHT">
         <prerequisite> Linguist Feat, Constitution score of 13 or higher</prerequisite>
         <requirements>[type:spell]</requirements>
         <description>
