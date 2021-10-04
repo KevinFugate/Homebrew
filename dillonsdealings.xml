@@ -6,6 +6,7 @@
             <file name="dillonsdealings.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/dillonsdealings.xml" />
         </update>
     </info>
+    <elements>
     <element name="Mage Plate" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_MAGE_PLATE">
         <supports>Sorcerer, Wizard</supports>
         <description>
@@ -680,5 +681,390 @@
       <set name="isRitual">false</set>
     </setters>
   </element>
+<element name="Fireproof" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_FIREPROOF">
+        <prerequisite>Level 10, Elemental Adept Feat with Fire as the chosen damage type.</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite: Level 10, Elemental Adept Feat with Fire as the chosen damage type.</i></p>
+            <p>When you gain this feat, you attunement to the Flames becomes more developed.</p>
+            <p class="indent">You gain immunity to fire damage but only from spells and spell based effects, such as the fire damage rolled from an enemy's fireball spell or an item that was set aflame by magical fire. Real flames however will cause you to take fire damage, in this case any other resistances or immunities you have may be applied.</p>
+        </description>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Fireproof" supports="Fireproof" />
+        </rules>
+    </element>
+<element name="Hydrophobic" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_HYDROPHOBIC">
+        <prerequisite>Level 10, Elemental Adept Feat with Cold as the chosen damage type.</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite: Level 10, Elemental Adept Feat with Cold as the chosen damage type.</i></p>
+            <p>When you gain this feat, you attunement to the Cold becomes more developed.</p>
+            <p class="indent">You gain immunity to cold damage but only from spells and spell based effects, such as the cold damage rolled from an enemy's cone of cold spell or an item that was frozen by magical cold. Real water and cold winds like a tidal wave or blizzard however will cause you to take cold damage, in this case any other resistances or immunities you have may be applied.</p>
+        </description>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Hydrophobic" supports="Hydrophobic" />
+        </rules>
+    </element>
+<element name="Soundproof" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_SOUNDPROOF">
+        <prerequisite>Level 10, Elemental Adept Feat with Thunder as the chosen damage type.</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite: Level 10, Elemental Adept Feat with Thunder as the chosen damage type.</i></p>
+            <p>When you gain this feat, you attunement to the Thunderous forces becomes more developed.</p>
+            <p class="indent">You gain immunity to thunder damage but only from spells and spell based effects, such as the thunder damage rolled from an enemy's thunderstep spell. Real Thunder or Sound based damage effects however will cause you to take thunder damage, in this case any other resistances or immunities you have may be applied.</p>
+        </description>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Soundproof" supports="Soundproof" />
+        </rules>
+    </element>
+<element name="Insulated" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_INSULATED">
+        <prerequisite>Level 10, Elemental Adept Feat with Lightning as the chosen damage type.</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite: Level 10, Elemental Adept Feat with Lightning as the chosen damage type.</i></p>
+            <p>When you gain this feat, you attunement to Lightning becomes more developed.</p>
+            <p class="indent">You gain immunity to lightning damage but only from spells and spell based effects, such as the lightning damage rolled from an enemy's lightning spell. Real Lightning or other forms of electricity however will cause you to take lightning damage, in this case any other resistances or immunities you have may be applied.</p>
+        </description>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Insulated" supports="Insulated" />
+        </rules>
+    </element>
+<element name="Impervious" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_IMPERVIOUS">
+        <prerequisite>Level 10, Elemental Adept Feat with Acid as the chosen damage type.</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite: Level 10, Elemental Adept Feat with Acid as the chosen damage type.</i></p>
+            <p>When you gain this feat, you attunement to Corrosion becomes more developed.</p>
+            <p class="indent">You gain immunity to acid damage but only from spells and spell based effects, such as the acid damage rolled from an enemy's melf's acid arrow spell.. Real acid or other corrosive materials however will cause you to take acid damage, in this case any other resistances or immunities you have may be applied.</p>
+        </description>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Impervious" supports="Impervious" />
+        </rules>
+    </element>
+<element name="Lore Seeker" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_LORE_SEEKER">
+        <prerequisite> Magic Initiate feat (with Bard as the chosen spell list), Charisma score of 13 or higher.
+</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite: Magic Initiate Feat (with Bard as the chosen spell list), Charisma score of 13 or higher.</i></p>
+            <p> When you take this Feat you become more aware of the Arcane power of music and rhyme. You gain 1 Magical Secret ( A spell from any class spell list of a level that you  can cast) and 2 Bardic Inspiration die.</p>
+            <p class="indent"> If you are a Bard or have the Actor or Entertainer backgrounds then you can take this Feat without having to have taken the Magic Initiate Feat first, but you still must meet the Charisma score requirement. *Any third party/homebrew classes or subclasses can be added to the list of exemptions from the Magic Initiate prerequisite at the DM's discretion.</p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Lore Seeker" supports="Lore Seeker" />
+        </rules>
+    </description>
+    </element>
+<element name="Moonbound" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_MOONBOUND">
+        <prerequisite> Magic Initiate feat (with Druid as the chosen spell list), Wisdom score of 13 or higher.
+</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite: Magic Initiate Feat (with Druid as the chosen spell list), Wisdom score of 13 or higher.</i></p>
+            <p> When you take this Feat you become more aware of the Natural magic that flows in the world around you. You gain the ability to use the Wild Shape feature, you can use this ability to transform yourself into any CR 0 creature for 1 minute a number of times a day equal to your Wisdom Modifier ( Min. 1 Max. 3). Other benefits and limitations of the Wild Shape feature apply as normal.</p>
+            <p class="indent">If you are a Druid, Oath of the Ancients Paladin, Nature Domain Cleric, Path of the Totem, or Beast Master Ranger you can take this Feat without having to have taken the Magic Initiate Feat first, but you still must meet the Wisdom score requirement.  *Any third party/homebrew classes or subclasses can be added to the list of exemptions from the Magic Initiate prerequisite at the DM's discretion.</p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Moonbound" supports="Moonbound" />
+        </rules>
+    </description>
+    </element>
+<element name="Ordained" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_ORDAINED">
+        <prerequisite> Magic Initiate feat (with Cleric as the chosen spell list), Wisdom score of 13 or higher.
+</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite: Magic Initiate Feat (with Cleric as the chosen spell list), Wisdom score of 13 or higher.</i></p>
+            <p> When you take this Feat you become more aware of the Divine presence all around you. You gain 1 use of the Turn Undead feature once per day and 2 1st level spells from the Cleric spell list. These spells can be cast once before a long rest without need of a spell lot, however if you have spell slots of the appropriate level for casting of these spells you may use them</p>
+            <p class="indent"> if you are an Aasimar, a Cleric, Paladin, Celestial Pact Warlock, or Divine Soul Sorcerer you can take this Feat without having to have taken the Magic Initiate Feat first, but you still must meet the Wisdome score requirement.  *Any third party/homebrew classes or subclasses can be added to the list of exemptions from the Magic Initiate prerequisite at the DM's discretion.</p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Ordained" supports="Ordained" />
+        </rules>
+    </description>
+    </element>
+<element name="Eldritch Gift" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_ELDRITCH_GIFT">
+        <prerequisite> Magic Initiate feat (with Warlock as the chosen spell list), Charisma score of 13 or higher.
+</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite:Magic Initiate Feat(with Warlock as the chosen spell list), Charisma score of 13 or higher.</i></p>
+            <p> When you take this Feat an Eldritch creature has taken note of you imitating its power, and is impressed. it bestows upon you a fraction of its power. You gain 1 Warlock Invocation from that list that does not have a prerequisite and you pick one of the Pact Boons to be bestowed upon you. You may change your Pact Boon each time you gain a new level.</p>
+            <p class="indent"> if you are a Warlock or an Order of the Profane Soul Blood Hunter then you can take this Feat withouth having to have taken the Magic Initiate Feat first, but you still must meet the Charisma score requirement.  *Any third party/homebrew classes or subclasses can be added to the list of exemptions from the Magic Initiate prerequisite at the DM's discretion.</p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Eldritch Gift" supports="Eldritch Gift" />
+        </rules>
+    </description>
+    </element>
+<element name="Epiphany" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_EPIPHANY">
+        <prerequisite> Magic Initiate feat (with Wizard as the chosen spell list), Intelligence score of 13 or higher.
+</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite:Magic Initiate Feat(with Wizard as the chosen spell list),Intelligence score of 13 or higher.</i></p>
+            <p>When you take this Feat you learn to draw power from the weave more proficiently. A number of times equal to your Intelligence Modifier (Min. 1 Max. 3) You can impose disadvantage on the target(s) effected by your spell or you can grant advantage one one of your own ranged spell attack rolls. You learn 1 cantrip and 2 1st level spells from the wizard spell list of your choice, you can cast each of the 1st level spells once between long rest without spell slots, but if you have the appropriate spell slots they can be cast using them as well.</p>
+            <p class="indent"> if you are a Wizard, Eldritch Knight Fighter, Arcane Trickster Rogue, or Arcana Domain Cleric you can take this Feat without having had taken the Magic Initiate Feat first, but you still must meet the Intelligence score requirement. *Any third party/homebrew classes or subclasses can be added to the list of exemptions from the Magic Initiate prerequisite at the DM's discretion.</p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Epiphany" supports="Epiphany" />
+        </rules>
+    </description>
+    </element>
+<element name="Artificer Adept" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_ARTIFICER_ADEPT">
+        <prerequisite> Artificer Initiate Feat, Intelligence score of 13 or higher.</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite: Artificer Initiate Feat, Intelligence score of 13 or higher.</i></p>
+            <p> When you take this Feat you gain more of an understanding on tinkering and crafting. You pick 2 Artificer Infusions from the Artificer Infusion table that do not have a prerequisite, these infusions can be applied under their normal rulings.</p>
+            <p class="indent"> if you are an Artificer, a Warforged, or a Clockwork Soul Sorcerer you can take this Feat without having had taken the Artificer Initiate Feat first, but you still must meet the Intelligence score requirement.  *Any third party/homebrew classes or subclasses can be added to the list of exemptions from the Magic Initiate prerequisite at the DM's discretion</p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Artificer Adept" supports="Artificer Adept" />
+        </rules>
+    </description>
+    </element>
+<element name="Divine Rite" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_DIVINE_RITE">
+        <prerequisite> Inspiring Leader Feat, Charisma score of 13 or higher.</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i> Inspiring Leader Feat, Charisma score of 13 or higher.</i></p>
+            <p> When you take this Feat you are imbued with the radiance of a Divine being. A number of times per day equal to your Charisma modifier (Min.1 Max. 3) when you make a sucessful melee weapon attack you can invoke that God's radiance and add 1d8 radiant or necrotic damage to your damage roll, at 10th level this becomes 2d8 additional damage</p>
+            <p class="indent"> if you are an Aasimar, a Paladin, a Cleric, Divine Soul Sorcerer, or Celestial Pact Warlock you can take this Feat without having had taken the Inspiring Leader Feat first, but you still must meet the Charisma score requirement.  *Any third party/homebrew classes or subclasses can be added to the list of exemptions from the Magic Initiate prerequisite at the DM's discretion.</p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Divine Rite" supports="Divine Rite" />
+        </rules>
+    </description>
+    </element>
+<element name="Battle Lust" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_BATTLE_LUST">
+        <prerequisite>Savage Attacker Feat, Constitution score of 13 or higher.</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Savage Attacker Feat, Constitution score of 13 or higher.</i></p>
+            <p>When you take this Feat you learn how to manifest your anger as power on the field of battle. Twice per day you can use the Rage feature while in combat. This feature remains active for 1d4 rounds of combat and when the effect ends you take 1d4 pyschic damage. Other benefits and limitations of the Rage feature apply as they normally would</p>
+            <p class="indent"> if you are a Barbarian, Oath of Vengeance Paladin, War Domain Cleric, or a Hex Blade Patron Warlock you can take this Feat without having had taken the Savage Attacker Feat first, but you still must meet the Constitution score requirement.  *Any third party/homebrew classes or subclasses can be added to the list of exemptions from the Magic Initiate prerequisite at the DM's discretion.</p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Battle Lust" supports="Battle Lust" />
+        </rules>
+    </description>
+    </element>
+<element name="White Belt" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_WHITE_BELT">
+        <prerequisite> Mobile Feat, Wisdome score of 13 or higher</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i> Mobile Feat, Wisdome score of 13 or higher.</i></p>
+            <p>When you take this Feat you learn how to more adequately use your body in combat. You gain 2 Ki points and access to the Flurry of Blows and Patient Defense features. These Ki points replenish after a long rest. Your unarmed strikes now deal 1d6 + either your Strength or Dexterity modifier (your choice). If you were already proficient in the Unarmed Combat Fighting Style (but not a Monk) then you instead deal 1d8 + your Strength or Dexterity modifier on Unarmed Stikes.</p>
+            <p class="indent"> if you are a Monk, Battle Master Fighter, College of Valor Bard, or an Oath of Glory Paladin you can take this Feat without having had taken the Mobile Feat first, but you still must meet the Wisdom score requirement.  *Any third party/homebrew classes or subclasses can be added to the list of exemptions from the Magic Initiate prerequisite at the DM's discretion.</p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="White Belt" supports="White Belt" />
+        </rules>
+    </description>
+    </element>
+<element name="Sucker Punch" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_SUCKER_PUNCH">
+        <prerequisite> Skulker Feat, Dexterity score of 13 or higher</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i> Skulker Feat, Dexterity score of 13 or higher</i></p>
+            <p> When you take this Feat you become more proficient at dealing damage to opponents when they are distracted or not looking at all. Whenever you would make a melee or ranged attack against a target that you either have advantage against or that is currently considered flanked you can add 1d6 additonal damage ( of the weapons damage type) to your damage roll. This damage increases to 2d6 at 10th level. You can use this feature a number of times per day equeal to your Dexterity Modifier (Min. 1 Max. 3)</p>
+            <p class="indent"> if you are a Rogue, a Gloomstalker Ranger, a Way of the Shadow Monk, or a Trickery Domain Cleric you can take this Feat without having had taken the Skulker Feat first, but you still must meet the Dexterity requirement.  *Any third party/homebrew classes or subclasses can be added to the list of exemptions from the Magic Initiate prerequisite at the DM's discretion.</p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Sucker Punch" supports="Sucker Punch" />
+        </rules>
+    </description>
+    </element>
+<element name="Experienced" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_EXPERIENCED">
+        <prerequisite> Observant Feat, Wisdom or Dexterity score of 13 or higher.</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i> Observant Feat, Wisdom or Dexterity score of 13 or higher.</i></p>
+            <p> When you take this Feat you start to realize just how familiar you've become with the different types of foes one can encounter on the path. Twice per day you can use an action to declare a enemy type, this enemy type now becomes your favored enemy and gain all the benefits and limitations that would apply. This effect last for a minute. You may also cast the Hunter's Mark spell once between rests without using a spell slot.</p>
+            <p class="indent"> if you are a Ranger, Druid, Knowledge Domain Cleric, Assassin rogue, or Battle Master Fighter you can take this Feat without having had taken the Observant Feat first, but you still must meet the Wisdom or Dexterity score requirement.  *Any third party/homebrew classes or subclasses can be added to the list of exemptions from the Magic Initiate prerequisite at the DM's discretion.</p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Experienced" supports="Experienced" />
+        </rules>
+    </description>
+    </element>
+<element name="In Theory" type="Feat" source="Dillon's Dealings" id="ID_DD_IN_THEORY">
+        <prerequisite></prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i></i></p>
+            <p> A number of times per day equal to your Proficiency modifier (Min. 1 Max. 3) whenever you would make a skill check with a skill or tool that you are not proficient in but still have a bonus to because of your ability score modifier you gain advantage on that skill or tool check.</p>
+            <p class="indent"></p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="In Theory" supports="In Theory" />
+        </rules>
+    </description>
+    </element>
+<element name="In Practice" type="Feat" source="Dillon's Dealings" id="ID_DD_IN_PRACTICE">
+        <prerequisite>In Theroy Feat.</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite: In Theory Feat.</i></p>
+            <p>  A number of times per day equal to your Proficiency modifier (Min. 1 Max. 3) whenever you would make a skill check with a skill or tool that you proficient in you gain advantage on that skill or tool check</p>
+            <p class="indent"></p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="In Practice" supports="In Practice" />
+        </rules>
+    </description>
+    </element>
+<element name="Alpha" type="Feat" source="Dillon's Dealings" id="ID_DD_ALPHA">
+        <prerequisite></prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i></i></p>
+            <p> Whenever dealing with animals you have advantage on Intimidation checks to have them fear you or on animal handling checks to deal with the animals.</p>
+            <p class="indent">  At 10th level you can cast speak with animals once per day without needing spell slots or material components, if you have the appropriate spell slots for casting you can also cast it this way.</p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Alpha" supports="Alpha" />
+        </rules>
+    </description>
+    </element>
+<element name="Expert" type="Feat" source="Dillon's Dealings" id="ID_DD_EXPERT">
+        <prerequisite>Skilled Feat.</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite: Skilled Feat.</i></p>
+            <p> Choose 3 of the skills or tools that you are proficient in, one of these must be from those chosen when you took the Skilled Feat, you gain Expertise in these skills or tools.</p>
+            <p class="indent"></p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Expert" supports="Expert" />
+        </rules>
+    </description>
+    </element>
+<element name="Juggernaut" type="Feat" source="Dillon's Dealings" id="ID_DD_JUGGERNAUT">
+        <prerequisite>Charger Feat or Barbarian Class</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite: Charger Feat or Barbarian Class.</i></p>
+            <p> Whenever you take the dash action oppurtunity attacks made against you have are made with disadvantage, and oppurtunity attacks that do hit only do half damage.</p>
+            <p class="indent">Whenever you reach 10th level you gain resistance to bludgeoning, piercing, and slashing damage.</p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Juggernaut" supports="Juggernaut" />
+        </rules>
+    </description>
+    </element>
+<element name="Street Magician" type="Feat" source="Dillon's Dealings" id="ID_DD_STREET_MAGICIAN">
+        <prerequisite> Level 6 or higher, Non-spellcasting base class.</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite:  Level 6 or higher, Non-spellcasting base class.</i></p>
+            <p> Whenever you take this feat you take this Feat you realize that you have a real knack that for complex magic tricks and simple spells. You gain proficiency in both the Sleight of Hand and Performance skills if you did not already have it. You then choose any 5 non damage dealing cantrips, these are now spells you can cast. If any of the chosen cantrips require a saving thrw against your DC, Charisma is used to calculate your DC.</p>
+            <p class="indent"></p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Street Magician" supports="Street Magician" />
+        </rules>
+    </description>
+    </element>
+<element name="Gift of Gab" type="Feat" source="Dillon's Dealings" id="ID_DD_GIFT_OF_GAB">
+        <prerequisite> Linguist Feat, Charisma score of 13 or higher.</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite: Linguist Feat, Charisma score of 13 or higher.</i></p>
+            <p>You realize how to capitilize on your gift for both language and conversation. You learn to speak, read, and write one additional language of your choice. Additionally, you can communicate in basic ways with anyone who can hear or see you. Whenever you make a deception or persuasion check against someone who speaks at least one language you do you gain advantage on that skill check.</p>
+            <p class="indent"></p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Gift of Gab" supports="Gift of Gab" />
+        </rules>
+    </description>
+    </element>
+<element name="In the Palm of Your Hand" type="Feat" source="Dillon's Dealings" id="ID_DD_IN_THE_PALM_OF_YOUR_HAND">
+        <prerequisite> Level 10</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite: Level 10</i></p>
+            <p>You gain advantage on Death Saving Throws.</p>
+            <p class="indent"></p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="In the Palm of Your Hand" supports="In the Palm of Your Hand" />
+        </rules>
+    </description>
+    </element>
+<element name="Profit" type="Feat" source="Dillon's Dealings" id="ID_DD_PROFIT">
+        <prerequisite> Bard Class or Entertainer Background</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite: Bard Class or Entertainer Background</i></p>
+            <p>You gain Profit Points equal to your Proficiency Bonus, these points replenish after a long rest. Whenever you would recieve money as a form of payment or tips from a Non-player Character you can spend 1 of your Profit Points to roll 2d10, the total amount rolled is added to the payment you recieved. The additional amount you recieve corresponds to the type of currency you recieved in your original payment, if you were being paid in copper pieces then you will recieve additional copper pieces but if it's gold pieces you were paid in then the additional amount will also be in gold pieces.</p>
+            <p class="indent"></p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Profit" supports="Profit" />
+        </rules>
+    </description>
+    </element>
+<element name="Falconeer" type="Feat" source="Dillon's Dealings" id="ID_DD_FALCONEER">
+        <prerequisite> Proficiency in the Animal Handling Skill, Wisdom or Charisma score of 13 or higher</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite: Proficiency in the Animal Handling Skill,  Wisdom or Charisma score of 13 or higher</i></p>
+            <p>You gain a Falcon as an Animal Companion, at your DM's discretion this could be substituted with any other Bird of Prey, and how you came upon this bird can be discussed by you and your DM. The bird stat block can be found in the Monster Manual. This bird can be used in combat like a normal Animal Companion but you can also use can also use your bird to assist you in foraging or hunting, via giving you advantage on Nature or Survival Skill checks used in the gathering of Food. The bird can also be used to deliver messages to any village, town, or city that it has spent at least 3 days in and has been given a place to use as it's desired landing point.</p>
+            <p class="indent"></p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Falconeer" supports="Falconeer" />
+        </rules>
+    </description>
+    </element>
+<element name="Totem Bearer" type="Feat" source="Dillon's Dealings" id="ID_DD_TOTEM_BEARER">
+        <prerequisite> Wisdom score of 13 or higher, Constitution score of 13 or higher</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite: Wisdom score of 13 or higher, Constitution score of 13 or higher</i></p>
+            <p>When you take this Feat you choose one of the Totem Spirits from the following list and you gain all benefits associated with it.</p>
+        <ul>
+            <li>Owl: You gain a Darkvision of 60 feet if you did not already have it. If you already had Darkvision your distance you can see with it is doubled. If you already had Darkvision and are of a Class considered to be a full caster, you gain the ability to see in magical darkness.</li>
+            <li>Turtle: You gain a permenant +2 your AC that applies with or without armor equipped, your swim speed is increased by 10 feet, and the rate at which you age is halved.</li>
+            <li>Frog: Your standing jumps are treated as running jumps. You can use a bonus action to secrete a posionous substance from your hands, if another creature touches this substance they must make a constitution saving throw or be posioned. Creatures can repeat this saving throw at the end of their turn. Your DC for this save is calculated using your Wisdom modifier.</li>
+            <li>Monkey: Your Dexterity score is increased by 1 and you gain expertise in acrobatics checks if you did not already have it. You grow a prehensile tail that can be used to grasp, grab or hold most things your hands could hold but it cannot be used to hold and use weapons other than daggers.</li>
+            <li>Elk: While you’re raging and aren’t wearing heavy armor, your walking speed increases by 15 feet. The spirit of the elk makes you extraordinarily swift.(You may only chose this option if you are not a Path of the Totem Warrior Barbarian)</li>
+            <li>Tiger: While raging, you can add 10 feet to your long jump distance and 3 feet to your high jump distance. The spirit of the tiger empowers your leaps.(You may only chose this option if you are not a Path of the Totem Warrior Barbarian)</li>
+        </ul>
+            <p class="indent"></p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Totem Bearer" supports="Totem Bearer" />
+        </rules>
+    </description>
+    </element>
+<element name="Runewright" type="Feat" source="Dillon's Dealings" id="ID_DD_RUNEWRIGHT">
+        <prerequisite> Linguist Feat, Constitution score of 13 or higher</prerequisite>
+        <requirements>[type:spell]</requirements>
+        <description>
+            <p><i>Prerequisite: Linguist Feat, Constitution score of 13 or higher</i></p>
+            <p>When you take this Feat you have come to understand the Old Runes of the Giants and the magic they hold,choose two of the Runes from the following list and you gain all benefits associated with them.</p>
+        <ul>
+            <li>Haug (Hill Rune): This rune’s magic bestows a resilience reminiscent of a hill giant. While wearing or carrying an object inscribed with this rune, you have advantage on saving throws against being poisoned, and you have resistance against poison damage. In addition, you can invoke the rune as a bonus action, gaining resistance to bludgeoning, piercing, and slashing damage for 1 minute. Once you invoke the rune, you can’t do so again until you finish a short or long rest.</li>
+            <li>Ild (Fire Rune): This rune’s magic channels the masterful craftsmanship of fire giant smiths. While wearing or carrying an object inscribed with this rune, your proficiency bonus is doubled for any ability check you make that uses your proficiency with a tool. In addition, when you hit a creature with a weapon attack, you can invoke the rune to summon fiery shackles: the target must succeed on a Strength saving throw or be restrained for 1 minute. While restrained by the shackles, the target takes 2d6 fire damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, banishing the shackles on a success. Once you invoke the rune, you can’t do so again until you finish a short or long rest.</li>
+            <li>Ise (Frost Rune): This rune’s magic evokes a frost giant’s stoic calm. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom (Animal Handling) checks and Charisma (Intimidation) checks. In addition, you can invoke the rune as a bonus action to increase your Strength score by 2 for 10 minutes. This increase can cause your score to exceed 20, but not 30. Once you invoke the rune, you can’t do so again until you finish a short or long rest.</li>
+            <li>Skye (Cloud Rune): This rune’s magic emulates the deceptiveness of a cloud giant. While wearing or carrying an object inscribed with this rune, you have advantage on Dexterity (Sleight of Hand) checks and Charisma (Deception) checks. In addition, when you or a creature you can see within 30 feet of you is hit by an attack roll, you can use your reaction to invoke the rune and cause that attack to target a different creature within 30 feet of you (other than the attacker), using the same roll. This magic can transfer the attack regardless of the attack’s range. Once you invoke the rune, you can’t do so again until you finish a short or long rest.</li>
+            <li>Stein (Stone Rune): This rune’s magic channels the insightfulness of a stone giant. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom (Insight) checks, and you have darkvision out to a range of 60 feet. If you already have darkvision, its range increases by 30 feet. In addition, when a creature you can see ends its turn within 30 feet of you, you can use your reaction to invoke the rune and force the creature to make a Wisdom saving throw. Unless the save succeeds, the creature is charmed by you for 1 minute. While charmed in this way, the creature has a speed of 0 and is incapacitated, descending into a dreamy stupor. The effect ends if the charmed creature takes any damage or if someone else uses an action to shake the creature out of its haze. Once you invoke the rune, you can’t do so again until you finish a short or long rest.</li>
+            <li>Uvar (Storm Rune): Using this rune, you can glimpse the future like a storm giant. While wearing or carrying an object inscribed with this rune, you have advantage on Intelligence (Arcana) checks, and you can’t be surprised as long as you are not incapacitated. In addition, you can invoke the rune as a bonus action to enter a prophetic state for 1 minute or until you’re incapacitated. Until the state ends, when you or another creature you can see within 60 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to cause the roll to have advantage or disadvantage. Once you invoke the rune, you can’t do so again until you finish a short or long rest.</li>
+        </ul>
+            <p class="indent">If you are a Dwarf, Gnome, or Goliath you can take this Feat without having had taken the Linguist Feat first, but you still must meet the Constitution score requirement. Rune Knight Fighters do not recieve access to this Feat.</p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Runewright" supports="Runewright" />
+        </rules>
+    </description>
+    </element>
 
 </elements>
