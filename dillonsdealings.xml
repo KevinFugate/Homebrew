@@ -6,7 +6,6 @@
             <file name="dillonsdealings.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/dillonsdealings.xml" />
         </update>
     </info>
-    <elements>
     <element name="Mage Plate" type="Spell" source="Dillon's Dealings" id="ID_DD_SPELL_MAGE_PLATE">
         <supports>Sorcerer, Wizard</supports>
         <description>
