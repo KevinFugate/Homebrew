@@ -1024,7 +1024,7 @@
         </rules>
     </description>
     </element>
-    <element name="Totem Spirit (Owl)" type="Archetype Feature" source="Dillon's Dealings" id="ID_MM_DD_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_OWL">
+    <element name="Totem Spirit (Owl)" type="Feat Feature" source="Dillon's Dealings" id="ID_MM_DD_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_OWL">
     <supports>Totem Bearer</supports>
     <description>
       <p>You gain a Darkvision of 60 feet if you did not already have it. If you already had Darkvision your distance you can see with it is doubled. If you already had Darkvision and are of a Class considered to be a full caster, you gain the ability to see in magical darkness.</p>
@@ -1033,7 +1033,7 @@
       <description>You gain a Darkvision of 60 feet if you did not already have it. If you already had Darkvision your distance you can see with it is doubled. If you already had Darkvision and are of a Class considered to be a full caster, you gain the ability to see in magical darkness.</description>
     </sheet>
   </element>
-<element name="Totem Spirit (Turtle)" type="Archetype Feature" source="Dillon's Dealings" id="ID_MM_DD_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_TURTLE">
+<element name="Totem Spirit (Turtle)" type="Feat Feature" source="Dillon's Dealings" id="ID_MM_DD_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_TURTLE">
     <supports>Totem Bearer</supports>
     <description>
       <p>You gain a permenant +2 your AC that applies with or without armor equipped, your swim speed is increased by 10 feet, and the rate at which you age is halved.</p>
@@ -1042,7 +1042,7 @@
       <description>You gain a permenant +2 your AC that applies with or without armor equipped, your swim speed is increased by 10 feet, and the rate at which you age is halved.</description>
     </sheet>
   </element>
-<element name="Totem Spirit (Frog)" type="Archetype Feature" source="Dillon's Dealings" id="ID_MM_DD_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_FROG">
+<element name="Totem Spirit (Frog)" type="Feat Feature" source="Dillon's Dealings" id="ID_MM_DD_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_FROG">
     <supports>Totem Bearer</supports>
     <description>
       <p>Your standing jumps are treated as running jumps. You can use a bonus action to secrete a posionous substance from your hands, if another creature touches this substance they must make a constitution saving throw or be posioned. Creatures can repeat this saving throw at the end of their turn. Your DC for this save is calculated using your Wisdom modifier.</p>
@@ -1051,7 +1051,7 @@
       <description>Your standing jumps are treated as running jumps. You can use a bonus action to secrete a posionous substance from your hands, if another creature touches this substance they must make a constitution saving throw or be posioned. Creatures can repeat this saving throw at the end of their turn. Your DC for this save is calculated using your Wisdom modifier.</description>
     </sheet>
   </element>
-<element name="Totem Spirit (Monkey)" type="Archetype Feature" source="Dillon's Dealings" id="ID_MM_DD_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_MONKEY">
+<element name="Totem Spirit (Monkey)" type="Feat Feature" source="Dillon's Dealings" id="ID_MM_DD_ARCHETYPE_FEATURE_PATH_OF_THE_TOTEM_WARRIOR_TOTEM_SPIRIT_MONKEY">
     <supports>Totem Bearer</supports>
     <description>
       <p>Your Dexterity score is increased by 1 and you gain expertise in acrobatics checks if you did not already have it. You grow a prehensile tail that can be used to grasp, grab or hold most things your hands could hold but it cannot be used to hold and use weapons other than daggers.</p>
@@ -1078,7 +1078,7 @@
         </rules>
     </description>
     </element>
-<element name="Haug (Hill Rune)" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC_HAUG">
+<element name="Haug (Hill Rune)" type="Feat Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC_HAUG">
         <supports>RuneWright</supports>
         <description>
             <p>This rune’s magic bestows a resilience reminiscent of a hill giant. While wearing or carrying an object inscribed with this rune, you have advantage on saving throws against being poisoned, and you have resistance against poison damage.</p>
@@ -1089,7 +1089,7 @@
             In addition, you can invoke the rune as a bonus action, gaining resistance to bludgeoning, piercing, and slashing damage for 1 minute.</description>
         </sheet>
     </element>
-    <element name="Ild (Fire Rune)" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC_ILD">
+    <element name="Ild (Fire Rune)" type="Feat Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC_ILD">
         <supports>Runewright</supports>
         <description>
             <p>This rune’s magic channels the masterful craftsmanship of fire giant smiths. While wearing or carrying an object inscribed with this rune, your proficiency bonus is doubled for any ability check you make that uses your proficiency with a tool.</p>
@@ -1100,7 +1100,7 @@
             In addition, when you hit a creature with a weapon attack, you can invoke the rune to summon fiery shackles: the target must succeed on a DC {{rune knight:rune magic:dc}} Strength saving throw or be restrained for 1 minute. While restrained by the shackles, the target takes 2d6 fire damage at the start of each of its turns. The target can repeat the saving throw at the end of each of its turns, banishing the shackles on a success.</description>
         </sheet>
     </element>
- <element name="Ise (Frost Rune)" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC_ISE">
+ <element name="Ise (Frost Rune)" type="Feat Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC_ISE">
         <supports>Runewright</supports>
         <description>
             <p>This rune’s magic evokes a frost giant’s stoic calm. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom (Animal Handling) checks and Charisma (Intimidation) checks.</p>
@@ -1111,7 +1111,7 @@
             In addition, you can invoke the rune as a bonus action to increase your Strength score by 2 for 10 minutes. This increase can cause your score to exceed 20, but not 30.</description>
         </sheet>
     </element>
-<element name="Skye (Cloud Rune)" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC_SKYE">
+<element name="Skye (Cloud Rune)" type="Feat Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC_SKYE">
         <supports>Runewright</supports>
         <description>
             <p>This rune’s magic emulates the deceptiveness of a cloud giant. While wearing or carrying an object inscribed with this rune, you have advantage on Dexterity (Sleight of Hand) checks and Charisma (Deception) checks.</p>
@@ -1122,7 +1122,7 @@
             In addition, when you or a creature you can see within 30 feet of you is hit by an attack roll, you can use your reaction to invoke the rune and cause that attack to target a different creature within 30 feet of you (other than the attacker), using the same roll. This magic can transfer the attack regardless of the attack’s range.</description>
         </sheet>
     </element>
-<element name="Stein (Stone Rune)" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC_STEIN">
+<element name="Stein (Stone Rune)" type="Feat Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC_STEIN">
         <supports>Runewright</supports>
         <description>
             <p>This rune’s magic channels the insightfulness of a stone giant. While wearing or carrying an object inscribed with this rune, you have advantage on Wisdom (Insight) checks, and you have darkvision out to a range of 60 feet. If you already have darkvision, its range increases by 30 feet.</p>
@@ -1133,7 +1133,7 @@
             In addition, when a creature you can see ends its turn within 30 feet of you, you can use your reaction to invoke the rune and force the creature to make a Wisdom saving throw. Unless the save succeeds, the creature is charmed by you for 1 minute. While charmed in this way, the creature has a speed of 0 and is incapacitated, descending into a dreamy stupor. The effect ends if the charmed creature takes any damage or if someone else uses an action to shake the creature out of its haze.</description>
         </sheet>
     </element>
-<element name="Uvar (Storm Rune)" type="Archetype Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC_UVAR">
+<element name="Uvar (Storm Rune)" type="Feat Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC_UVAR">
         <supports>Runewright</supports>
         <description>
             <p>Using this rune, you can glimpse the future like a storm giant. While wearing or carrying an object inscribed with this rune, you have advantage on Intelligence (Arcana) checks, and you can’t be surprised as long as you are not incapacitated.</p>
