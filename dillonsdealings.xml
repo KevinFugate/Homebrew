@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Dillon's Dealings</name>
-        <update version="0.1.2">
+        <update version="0.1.3">
             <file name="dillonsdealings.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/dillonsdealings.xml" />
         </update>
     </info>
@@ -1020,7 +1020,7 @@
         <sheet display="true" />
         <rules>
             <select type="Feat Feature" name="Totem Bearer" supports="Totem Bearer" />
-            <select type="Archetype Feature" name="Totem Option" supports="Totem Bearer" />
+            <select type="Archetype Feature" name="Totem Bearer" supports="Totem Bearer" />
         </rules>
     </description>
     </element>
@@ -1070,7 +1070,7 @@
         <sheet display="true" />
         <rules>
             <select type="Feat Feature" name="Runewright" supports="Runewright" />
-            <select type="Archetype Feature" name="Rune Option, Rune Magic" supports="Runewright" number="2" />
+            <select type="Archetype Feature" name="Runewright" supports="Runewright" number="2" />
             <stat name="rune knight:rune magic:dc" value="8" />
             <stat name="rune knight:rune magic:dc" value="proficiency" />
             <stat name="rune knight:rune magic:dc" value="intelligence:modifier" />
@@ -1078,7 +1078,7 @@
         </rules>
     </description>
     </element>
-<element name="Haug (Hill Rune)" type="Feat Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_ARCHETYPE_FEATURE_RUNE_KNIGHT_RUNE_MAGIC_HAUG">
+<element name="Haug (Hill Rune)" type="Feat Feature" source="Unearthed Arcana: Fighter, Ranger, and Rogue" id="ID_WOTC_UA20191003_FEAT_FEATURE_RUNE_KNIGHT_RUNE_MAGIC_HAUG">
         <supports>RuneWright</supports>
         <description>
             <p>This rune’s magic bestows a resilience reminiscent of a hill giant. While wearing or carrying an object inscribed with this rune, you have advantage on saving throws against being poisoned, and you have resistance against poison damage.</p>
