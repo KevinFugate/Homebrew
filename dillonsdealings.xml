@@ -1,8 +1,8 @@
-<?xml version="1.1" encoding="utf-8" ?>
+<?xml version="1.2" encoding="utf-8" ?>
 <elements>
     <info>
         <name>Dillon's Dealings</name>
-        <update version="0.1.1">
+        <update version="0.1.2">
             <file name="dillonsdealings.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/dillonsdealings.xml" />
         </update>
     </info>
