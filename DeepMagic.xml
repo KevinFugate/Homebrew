@@ -3,7 +3,7 @@
     <info>
         <name>Deep Magic</name>
         <update version="0.0.1">
-            <file name="deepmagic.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/dillonsdealings.xml" />
+            <file name="deepmagic.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/deepmagic.xml" />
         </update>
     </info>
     <element name="White Necromancy" type="Archetype" source="Deep Magic" id="ID_KP_DM_ARCHETYPE_WIZARD_WHITE_NECROMANCY">
@@ -41,6 +41,7 @@
     <element name="Lore of Life and Death" type="Archetype Feature" source="Deep Magic" id="ID_KP_DM_ARCHETYPE_FEATURE_WIZARD_WHITE_NECROMANCY_LORE_OF_LIFE_AND_DEATH">
         <description>
             <p>At 2nd level, you gain proficiency in Medicine and Religion if you don't already have it, your proficiency bonus is doubled for Wisdom(Medicine) checks, and you have advantage on Intelligence(Religion) checks to recall lore about dieties of death, burial practices, and the afterlife. In addition, you learn the Spare the Dying cantrip, which is a wizard cantrip for you and doesn't count against the number of wizard cantrips you know. </p>
+        </description>
     </element>
     <element name="Rebuke Death" type="Archetype Feature" source="Deep Magic" id="ID_KP_DM_ARCHETYPE_FEATURE_WIZARD_WHITE_NECROMANCY_REBUKE_DEATH">
         <description>
