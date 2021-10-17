@@ -2,8 +2,8 @@
 <elements>
     <info>
         <name>Deep Magic</name>
-        <update version="0.0.4">
-            <file name="deepmagic.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/deepmagic.xml" />
+        <update version="0.0.5">
+            <file name="DeepMagic.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/DeepMagic.xml" />
         </update>
     </info>
     <element name="White Necromancy" type="Archetype" source="Deep Magic" id="ID_KP_DM_ARCHETYPE_WIZARD_WHITE_NECROMANCY">
