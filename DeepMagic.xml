@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Deep Magic</name>
-        <update version="0.0.2">
+        <update version="0.0.3">
             <file name="deepmagic.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/deepmagic.xml" />
         </update>
     </info>
@@ -59,6 +59,7 @@
             <li> If the undead creature has an Intelligence score of 5 or lower, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak. </li>
             <li> The undead creature's alignment is the same as yours. </li>
             <li> At the end of the undead creature's first 24 hours of serving you, it might continue to serve you for another 24 hours or else return to its eternal rest. You can convince the undead creature to continue serving you with a successful Charisma (Persuasion) check against a DC equal to 8+ the creature's challenge rating. On a successful check, the creature remains under your control, and the DC of the next check you make to maintain control 24 hours later increases by 1. You have disadvantage on the check if you were disrespectful to the creature in the previous 24 hours. On a failed check, or if you choose not to maintain control, the creature immediately crumbles to dust </li>
+        </ul>
         <sheet>
             <description>When you reach 11th level, you add the Create Undead spell to your spellbook. All of the above effects also apply whenever you cast that spell.</description>
         </sheet>
