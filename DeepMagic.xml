@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Deep Magic</name>
-        <update version="0.0.3">
+        <update version="0.0.4">
             <file name="deepmagic.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/deepmagic.xml" />
         </update>
     </info>
@@ -79,7 +79,6 @@
             <p class="indent">Once you use this feature, you can't use it again until you finish a short or long rest.</p>
         </description>
         <sheet action="Action">
-        <sheet>
             <description></description>
         </sheet>
     </element>
