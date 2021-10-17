@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Deep Magic</name>
-        <update version="0.0.1">
+        <update version="0.0.2">
             <file name="deepmagic.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/deepmagic.xml" />
         </update>
     </info>
