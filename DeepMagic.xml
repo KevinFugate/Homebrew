@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Deep Magic</name>
+        <update version="0.0.1">
+            <file name="deepmagic.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/dillonsdealings.xml" />
+        </update>
+    </info>
+    <element name="White Necromancy" type="Archetype" source="Deep Magic" id="ID_KP_DM_ARCHETYPE_WIZARD_WHITE_NECROMANCY">
+        <supports>Arcane Tradition</supports>
+        <description>
+            <p>An enlightened few wizards know that true mastery of life ad death requires understanding of the uneasy balance between life, death, and undeath--the necromantic triad.</p>
+            <p class="indent"> You don't walk the same path as traditional users of necromantic magic, which your order referst o as "dark necromancers." You have profound respect for life's eternal cycle anduse the power you have accumulated to honor the dead and aid the living. *Resteiction: Non-Evil. You can choose this wizard specialty only if you have an alignment that isn't evil. </p>
+            <div element="ID_KP_DM_ARCHETYPE_FEATURE_WIZARD_WHITE_NECROMANCY_NECROMANCY_SAVANT" />
+            <div element="ID_KP_DM_ARCHETYPE_FEATURE_WIZARD_WHITE_NECROMANCY_LORE_OF_LIFE_AND_DEATH" />
+            <div element="ID_KP_DM_ARCHETYPE_FEATURE_WIZARD_WHITE_NECROMANCY_REBUKE_DEATH" />
+            <div element="ID_KP_DM_ARCHETYPE_FEATURE_WIZARD_WHITE_NECROMANCY_WHITE_NECROMANCY" />
+            <div element="ID_KP_DM_ARCHETYPE_FEATURE_WIZARD_WHITE_NECROMANCY_LIFE_BOND" />
+            <div element="ID_KP_DM_ARCHETYPE_FEATURE_WIZARD_WHITE_NECROMANCY_PROTECT_LIFE" />
+        </description>
+        <sheet display="false">
+            <description></description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_KP_DM_ARCHETYPE_FEATURE_WIZARD_WHITE_NECROMANCY_NECROMANCY_SAVANT" level="2"/>
+            <grant type="Archetype Feature" id="ID_KP_DM_ARCHETYPE_FEATURE_WIZARD_WHITE_NECROMANCY_LORE_OF_LIFE_AND_DEATH" level="2"/>
+            <grant type="Archetype Feature" id="ID_KP_DM_ARCHETYPE_FEATURE_WIZARD_WHITE_NECROMANCY_REBUKE_DEATH" level="2"/>
+            <grant type="Archetype Feature" id="ID_KP_DM_ARCHETYPE_FEATURE_WIZARD_WHITE_NECROMANCY_WHITE_NECROMANCY" level="6"/>
+            <grant type="Archetype Feature" id="ID_KP_DM_ARCHETYPE_FEATURE_WIZARD_WHITE_NECROMANCY_LIFE_BOND" level="10"/>
+            <grant type="Archetype Feature" id="ID_KP_DM_ARCHETYPE_FEATURE_WIZARD_WHITE_NECROMANCY_PROTECT_LIFE" level="14"/>
+        </rules>
+    </element>
+    <element name="Necromancy Savant" type="Archetype Feature" source="Deep Magic" id="ID_KP_DM_ARCHETYPE_FEATURE_WIZARD_WHITE_NECROMANCY_NECROMANCY_SAVANT">
+        <description>
+            <p>Beginning when you select this specialty at 2nd level, the gold and time you must spend to copy a necromancy spell into your spellbook is halved.</p>
+        </description>
+        <sheet>
+            <description>The gold and time you must spend to copy a necromancy spell into your spellbook is halved.</description>
+        </sheet>
+    </element>
+    <element name="Lore of Life and Death" type="Archetype Feature" source="Deep Magic" id="ID_KP_DM_ARCHETYPE_FEATURE_WIZARD_WHITE_NECROMANCY_LORE_OF_LIFE_AND_DEATH">
+        <description>
+            <p>At 2nd level, you gain proficiency in Medicine and Religion if you don't already have it, your proficiency bonus is doubled for Wisdom(Medicine) checks, and you have advantage on Intelligence(Religion) checks to recall lore about dieties of death, burial practices, and the afterlife. In addition, you learn the Spare the Dying cantrip, which is a wizard cantrip for you and doesn't count against the number of wizard cantrips you know. </p>
+    </element>
+    <element name="Rebuke Death" type="Archetype Feature" source="Deep Magic" id="ID_KP_DM_ARCHETYPE_FEATURE_WIZARD_WHITE_NECROMANCY_REBUKE_DEATH">
+        <description>
+            <p> Also starting at 2nd level, you can use an action to heal a creature you can touch. The creature regains hit points equal to your Intelligence modifier + your wizard level(minimum of 1). This feature can restore a creature to no more than half its hit point maximum. Once a creature has regained hit points from this feature, it can't do so again until it finishes a long rest.</p>
+        </description>
+        <sheet action="Action">
+            <description>you can use an action to heal a creature you can touch. The creature regains hit points equal to your Intelligence modifier + your wizard level(minimum of 1). This feature can restore a creature to no more than half its hit point maximum. Once a creature has regained hit points from this feature, it can't do so again until it finishes a long rest.</description>
+        </sheet>
+    </element>
+    <element name="White Necromancy" type="Archetype Feature" source="Deep Magic" id="ID_KP_DM_ARCHETYPE_FEATURE_WIZARD_WHITE_NECROMANCY_WHITE_NECROMANCY">
+        <description>
+            <p>At 6th level, you add the Animate Dead spell to your spellbook if it's not there already. When you cast this spell, it has additional effects:</p>
+        </description>
+        <ul>
+            <li> If the undead creature has an Intelligence score of 5 or lower, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak. </li>
+            <li> The undead creature's alignment is the same as yours. </li>
+            <li> At the end of the undead creature's first 24 hours of serving you, it might continue to serve you for another 24 hours or else return to its eternal rest. You can convince the undead creature to continue serving you with a successful Charisma (Persuasion) check against a DC equal to 8+ the creature's challenge rating. On a successful check, the creature remains under your control, and the DC of the next check you make to maintain control 24 hours later increases by 1. You have disadvantage on the check if you were disrespectful to the creature in the previous 24 hours. On a failed check, or if you choose not to maintain control, the creature immediately crumbles to dust </li>
+        <sheet>
+            <description>When you reach 11th level, you add the Create Undead spell to your spellbook. All of the above effects also apply whenever you cast that spell.</description>
+        </sheet>
+    </element>
+    <element name="Life Bond" type="Archetype Feature" source="Deep Magic" id="ID_KP_DM_ARCHETYPE_FEATURE_WIZARD_WHITE_NECROMANCY_LIFE_BOND">
+        <description>
+            <p>Starting at 10th level, You add the Warding Bond spell to your spellbook, and it is a wizard spell for you. You can cast Warding Bond without expeding a spell slot or requiring the material component, and the spell's duration increases to 4 hours.</p>
+            <p class="indent">Once you cast Warding Bond in this way, you can't do so again until you finish a long rest. You can still cast Warding Bond normally using an available spell slot.</p>
+        </description>
+        <sheet>
+            <description></description>
+        </sheet>
+    </element>
+ <element name="Protect Life" type="Archetype Feature" source="Deep Magic" id="ID_KP_DM_ARCHETYPE_FEATURE_WIZARD_WHITE_NECROMANCY_PROTECT_LIFE">
+        <description>
+            <p>Once you reach the 14th level, you can use an action to cause life-preserving magic to emit from you. When you do so, you and friendly creatures within 20 feet of you have resistance to necrotic damage for 1 minute. In addition, each creature affected by your use of Protect Life has advantage on saving throws against spells and effects that reduce its hit point maximum, such as a speecter's Life Drain or the Harm spell.</p>
+            <p class="indent">Once you use this feature, you can't use it again until you finish a short or long rest.</p>
+        </description>
+        <sheet action="Action">
+        <sheet>
+            <description></description>
+        </sheet>
+    </element>
+
+</elements>
