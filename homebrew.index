@@ -2,13 +2,13 @@
 <index>
 	<info>
 		<name>User Edited files</name>
-		<update version="0.1.8">
+		<update version="0.1.9">
 			<file name="homebrew.index" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/homebrew.index"/>
 		</update>
 	</info>
 	<files>
 		<file name="dillonsdealings.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/dillonsdealings.xml" />
 		<file name="thorinstheories.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/thorinstheories.xml" />
-		<file name="deepmagic.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/deepmagic.xml" />
+		<file name="DeepMagic.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/DeepMagic.xml" />
 	</files>
 </index>
