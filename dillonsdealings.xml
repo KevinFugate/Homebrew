@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Dillon's Dealings</name>
-        <update version="0.1.5">
+        <update version="0.1.6">
             <file name="dillonsdealings.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/dillonsdealings.xml" />
         </update>
     </info>
@@ -682,7 +682,7 @@
   </element>
 <element name="Fireproof" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_FIREPROOF">
         <prerequisite>Level 10, Elemental Adept Feat with Fire as the chosen damage type.</prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i>Prerequisite: Level 10, Elemental Adept Feat with Fire as the chosen damage type.</i></p>
             <p>When you gain this feat, you attunement to the Flames becomes more developed.</p>
@@ -695,7 +695,7 @@
     </element>
 <element name="Hydrophobic" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_HYDROPHOBIC">
         <prerequisite>Level 10, Elemental Adept Feat with Cold as the chosen damage type.</prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i>Prerequisite: Level 10, Elemental Adept Feat with Cold as the chosen damage type.</i></p>
             <p>When you gain this feat, you attunement to the Cold becomes more developed.</p>
@@ -708,7 +708,7 @@
     </element>
 <element name="Soundproof" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_SOUNDPROOF">
         <prerequisite>Level 10, Elemental Adept Feat with Thunder as the chosen damage type.</prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i>Prerequisite: Level 10, Elemental Adept Feat with Thunder as the chosen damage type.</i></p>
             <p>When you gain this feat, you attunement to the Thunderous forces becomes more developed.</p>
@@ -721,7 +721,7 @@
     </element>
 <element name="Insulated" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_INSULATED">
         <prerequisite>Level 10, Elemental Adept Feat with Lightning as the chosen damage type.</prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i>Prerequisite: Level 10, Elemental Adept Feat with Lightning as the chosen damage type.</i></p>
             <p>When you gain this feat, you attunement to Lightning becomes more developed.</p>
@@ -734,7 +734,7 @@
     </element>
 <element name="Impervious" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_IMPERVIOUS">
         <prerequisite>Level 10, Elemental Adept Feat with Acid as the chosen damage type.</prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i>Prerequisite: Level 10, Elemental Adept Feat with Acid as the chosen damage type.</i></p>
             <p>When you gain this feat, you attunement to Corrosion becomes more developed.</p>
@@ -748,7 +748,7 @@
 <element name="Lore Seeker" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_LORE_SEEKER">
         <prerequisite> Magic Initiate feat (with Bard as the chosen spell list), Charisma score of 13 or higher.
 </prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i>Prerequisite: Magic Initiate Feat (with Bard as the chosen spell list), Charisma score of 13 or higher.</i></p>
             <p> When you take this Feat you become more aware of the Arcane power of music and rhyme. You gain 1 Magical Secret ( A spell from any class spell list of a level that you  can cast) and 2 Bardic Inspiration die.</p>
@@ -762,7 +762,7 @@
 <element name="Moonbound" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_MOONBOUND">
         <prerequisite> Magic Initiate feat (with Druid as the chosen spell list), Wisdom score of 13 or higher.
 </prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i>Prerequisite: Magic Initiate Feat (with Druid as the chosen spell list), Wisdom score of 13 or higher.</i></p>
             <p> When you take this Feat you become more aware of the Natural magic that flows in the world around you. You gain the ability to use the Wild Shape feature, you can use this ability to transform yourself into any CR 0 creature for 1 minute a number of times a day equal to your Wisdom Modifier ( Min. 1 Max. 3). Other benefits and limitations of the Wild Shape feature apply as normal.</p>
@@ -776,7 +776,7 @@
 <element name="Ordained" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_ORDAINED">
         <prerequisite> Magic Initiate feat (with Cleric as the chosen spell list), Wisdom score of 13 or higher.
 </prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i>Prerequisite: Magic Initiate Feat (with Cleric as the chosen spell list), Wisdom score of 13 or higher.</i></p>
             <p> When you take this Feat you become more aware of the Divine presence all around you. You gain 1 use of the Turn Undead feature once per day and 2 1st level spells from the Cleric spell list. These spells can be cast once before a long rest without need of a spell lot, however if you have spell slots of the appropriate level for casting of these spells you may use them</p>
@@ -790,7 +790,7 @@
 <element name="Eldritch Gift" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_ELDRITCH_GIFT">
         <prerequisite> Magic Initiate feat (with Warlock as the chosen spell list), Charisma score of 13 or higher.
 </prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i>Prerequisite:Magic Initiate Feat(with Warlock as the chosen spell list), Charisma score of 13 or higher.</i></p>
             <p> When you take this Feat an Eldritch creature has taken note of you imitating its power, and is impressed. it bestows upon you a fraction of its power. You gain 1 Warlock Invocation from that list that does not have a prerequisite and you pick one of the Pact Boons to be bestowed upon you. You may change your Pact Boon each time you gain a new level.</p>
@@ -804,7 +804,7 @@
 <element name="Epiphany" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_EPIPHANY">
         <prerequisite> Magic Initiate feat (with Wizard as the chosen spell list), Intelligence score of 13 or higher.
 </prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i>Prerequisite:Magic Initiate Feat(with Wizard as the chosen spell list),Intelligence score of 13 or higher.</i></p>
             <p>When you take this Feat you learn to draw power from the weave more proficiently. A number of times equal to your Intelligence Modifier (Min. 1 Max. 3) You can impose disadvantage on the target(s) effected by your spell or you can grant advantage one one of your own ranged spell attack rolls. You learn 1 cantrip and 2 1st level spells from the wizard spell list of your choice, you can cast each of the 1st level spells once between long rest without spell slots, but if you have the appropriate spell slots they can be cast using them as well.</p>
@@ -817,7 +817,7 @@
     </element>
 <element name="Artificer Adept" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_ARTIFICER_ADEPT">
         <prerequisite> Artificer Initiate Feat, Intelligence score of 13 or higher.</prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i>Prerequisite: Artificer Initiate Feat, Intelligence score of 13 or higher.</i></p>
             <p> When you take this Feat you gain more of an understanding on tinkering and crafting. You pick 2 Artificer Infusions from the Artificer Infusion table that do not have a prerequisite, these infusions can be applied under their normal rulings.</p>
@@ -830,7 +830,7 @@
     </element>
 <element name="Divine Rite" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_DIVINE_RITE">
         <prerequisite> Inspiring Leader Feat, Charisma score of 13 or higher.</prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i> Inspiring Leader Feat, Charisma score of 13 or higher.</i></p>
             <p> When you take this Feat you are imbued with the radiance of a Divine being. A number of times per day equal to your Charisma modifier (Min.1 Max. 3) when you make a sucessful melee weapon attack you can invoke that God's radiance and add 1d8 radiant or necrotic damage to your damage roll, at 10th level this becomes 2d8 additional damage</p>
@@ -843,7 +843,7 @@
     </element>
 <element name="Battle Lust" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_BATTLE_LUST">
         <prerequisite>Savage Attacker Feat, Constitution score of 13 or higher.</prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i>Savage Attacker Feat, Constitution score of 13 or higher.</i></p>
             <p>When you take this Feat you learn how to manifest your anger as power on the field of battle. Twice per day you can use the Rage feature while in combat. This feature remains active for 1d4 rounds of combat and when the effect ends you take 1d4 pyschic damage. Other benefits and limitations of the Rage feature apply as they normally would</p>
@@ -856,7 +856,7 @@
     </element>
 <element name="White Belt" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_WHITE_BELT">
         <prerequisite> Mobile Feat, Wisdome score of 13 or higher</prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i> Mobile Feat, Wisdome score of 13 or higher.</i></p>
             <p>When you take this Feat you learn how to more adequately use your body in combat. You gain 2 Ki points and access to the Flurry of Blows and Patient Defense features. These Ki points replenish after a long rest. Your unarmed strikes now deal 1d6 + either your Strength or Dexterity modifier (your choice). If you were already proficient in the Unarmed Combat Fighting Style (but not a Monk) then you instead deal 1d8 + your Strength or Dexterity modifier on Unarmed Stikes.</p>
@@ -869,7 +869,7 @@
     </element>
 <element name="Sucker Punch" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_SUCKER_PUNCH">
         <prerequisite> Skulker Feat, Dexterity score of 13 or higher</prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i> Skulker Feat, Dexterity score of 13 or higher</i></p>
             <p> When you take this Feat you become more proficient at dealing damage to opponents when they are distracted or not looking at all. Whenever you would make a melee or ranged attack against a target that you either have advantage against or that is currently considered flanked you can add 1d6 additonal damage ( of the weapons damage type) to your damage roll. This damage increases to 2d6 at 10th level. You can use this feature a number of times per day equeal to your Dexterity Modifier (Min. 1 Max. 3)</p>
@@ -882,7 +882,7 @@
     </element>
 <element name="Experienced" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_EXPERIENCED">
         <prerequisite> Observant Feat, Wisdom or Dexterity score of 13 or higher.</prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i> Observant Feat, Wisdom or Dexterity score of 13 or higher.</i></p>
             <p> When you take this Feat you start to realize just how familiar you've become with the different types of foes one can encounter on the path. Twice per day you can use an action to declare a enemy type, this enemy type now becomes your favored enemy and gain all the benefits and limitations that would apply. This effect last for a minute. You may also cast the Hunter's Mark spell once between rests without using a spell slot.</p>
@@ -895,7 +895,7 @@
     </element>
 <element name="In Theory" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_IN_THEORY">
         <prerequisite></prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i></i></p>
             <p> A number of times per day equal to your Proficiency modifier (Min. 1 Max. 3) whenever you would make a skill check with a skill or tool that you are not proficient in but still have a bonus to because of your ability score modifier you gain advantage on that skill or tool check.</p>
@@ -908,7 +908,7 @@
     </element>
 <element name="In Practice" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_IN_PRACTICE">
         <prerequisite>In Theroy Feat.</prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i>Prerequisite: In Theory Feat.</i></p>
             <p>  A number of times per day equal to your Proficiency modifier (Min. 1 Max. 3) whenever you would make a skill check with a skill or tool that you proficient in you gain advantage on that skill or tool check</p>
@@ -921,7 +921,7 @@
     </element>
 <element name="Alpha" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_ALPHA">
         <prerequisite></prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i></i></p>
             <p> Whenever dealing with animals you have advantage on Intimidation checks to have them fear you or on animal handling checks to deal with the animals.</p>
@@ -934,7 +934,7 @@
     </element>
 <element name="Juggernaut" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_JUGGERNAUT">
         <prerequisite>Charger Feat or Barbarian Class</prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i>Prerequisite: Charger Feat or Barbarian Class.</i></p>
             <p> Whenever you take the dash action oppurtunity attacks made against you have are made with disadvantage, and oppurtunity attacks that do hit only do half damage.</p>
@@ -947,7 +947,7 @@
     </element>
 <element name="Street Magician" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_STREET_MAGICIAN">
         <prerequisite> Level 6 or higher, Non-spellcasting base class.</prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i>Prerequisite:  Level 6 or higher, Non-spellcasting base class.</i></p>
             <p> Whenever you take this feat you take this Feat you realize that you have a real knack that for complex magic tricks and simple spells. You gain proficiency in both the Sleight of Hand and Performance skills if you did not already have it. You then choose any 5 non damage dealing cantrips, these are now spells you can cast. If any of the chosen cantrips require a saving thrw against your DC, Charisma is used to calculate your DC.</p>
@@ -960,7 +960,7 @@
     </element>
 <element name="Gift of Gab" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_GIFT_OF_GAB">
         <prerequisite> Linguist Feat, Charisma score of 13 or higher.</prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i>Prerequisite: Linguist Feat, Charisma score of 13 or higher.</i></p>
             <p>You realize how to capitilize on your gift for both language and conversation. You learn to speak, read, and write one additional language of your choice. Additionally, you can communicate in basic ways with anyone who can hear or see you. Whenever you make a deception or persuasion check against someone who speaks at least one language you do you gain advantage on that skill check.</p>
@@ -973,7 +973,7 @@
     </element>
 <element name="In the Palm of Your Hand" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_IN_THE_PALM_OF_YOUR_HAND">
         <prerequisite> Level 10</prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i>Prerequisite: Level 10</i></p>
             <p>You gain advantage on Death Saving Throws.</p>
@@ -986,7 +986,7 @@
     </element>
 <element name="Profit" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_PROFIT">
         <prerequisite> Bard Class or Entertainer Background</prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i>Prerequisite: Bard Class or Entertainer Background</i></p>
             <p>You gain Profit Points equal to your Proficiency Bonus, these points replenish after a long rest. Whenever you would recieve money as a form of payment or tips from a Non-player Character you can spend 1 of your Profit Points to roll 2d10, the total amount rolled is added to the payment you recieved. The additional amount you recieve corresponds to the type of currency you recieved in your original payment, if you were being paid in copper pieces then you will recieve additional copper pieces but if it's gold pieces you were paid in then the additional amount will also be in gold pieces.</p>
@@ -999,7 +999,7 @@
     </element>
 <element name="Falconeer" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_FALCONEER">
         <prerequisite> Proficiency in the Animal Handling Skill, Wisdom or Charisma score of 13 or higher</prerequisite>
-        <requirements>[type:spell]</requirements>
+        <requirements></requirements>
         <description>
             <p><i>Prerequisite: Proficiency in the Animal Handling Skill,  Wisdom or Charisma score of 13 or higher</i></p>
             <p>You gain a Falcon as an Animal Companion, at your DM's discretion this could be substituted with any other Bird of Prey, and how you came upon this bird can be discussed by you and your DM. The bird stat block can be found in the Monster Manual. This bird can be used in combat like a normal Animal Companion but you can also use can also use your bird to assist you in foraging or hunting, via giving you advantage on Nature or Survival Skill checks used in the gathering of Food. The bird can also be used to deliver messages to any village, town, or city that it has spent at least 3 days in and has been given a place to use as it's desired landing point.</p>
@@ -1011,8 +1011,8 @@
     </description>
     </element>
 <element name="Totem Bearer" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_TOTEM_BEARER">
-        <prerequisite> Wisdom score of 13 or higher, Constitution score of 13 or higher</prerequisite>
-        <requirements>[type:spell]</requirements>
+        <prerequisite> LevelWisdom score of 13 or higher, Constitution score of 13 or higher</prerequisite>
+        <requirements></requirements>
         <description>
             <p><i>Prerequisite: Wisdom score of 13 or higher, Constitution score of 13 or higher</i></p>
             <p>When you take this Feat you choose one of the Totem Spirits presented and you gain all benefits associated with it.</p>
