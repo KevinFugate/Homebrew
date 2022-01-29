@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Dillon's Dealings</name>
-        <update version="0.1.4">
+        <update version="0.1.5">
             <file name="dillonsdealings.xml" url="https://raw.githubusercontent.com/KevinFugate/Homebrew/main/dillonsdealings.xml" />
         </update>
     </info>
@@ -1020,7 +1020,7 @@
         <sheet display="true" />
         <rules>
             <select type="Feat Feature" name="Totem Bearer" supports="Totem Bearer" />
-            <select type="Archetype Feature" name="Totem Bearer" supports="Totem Bearer" />
+            <select type="Archetype Feature" name="Martial Adept" supports="Totem Bearer,Barbarian" number="1" />
         </rules>
     </description>
     </element>
@@ -1143,6 +1143,19 @@
             <description>You have advantage on Arcana checks, and you can’t be surprised as long as you are not incapacitated.
             In addition, you can invoke the rune as a bonus action to enter a prophetic state for 1 minute or until you’re incapacitated. Until the state ends, when you or another creature you can see within 60 feet of you makes an attack roll, a saving throw, or an ability check, you can use your reaction to cause the roll to have advantage or disadvantage.</description>
         </sheet>
+    </element>
+<element name="Pact Healing" type="Feat" source="Dillon's Dealings" id="ID_DD_FEAT_PACT_HEALING">
+        <prerequisite> Warlock</prerequisite>
+        <requirements></requirements>
+        <description>
+            <p><i>Warlock</i></p>
+            <p>In place of applying an eldritch essence invocation to your eldritch blast, you can change it into a healing blast. The blast heals living creatures instead of dealing damage to them (the damage healed is equal to the damage normally dealt). Against undead, the healing blast deals damage as normal; against constructs or objects, the healing blast has no effect. Once you have acquired multiple beams for your Eldritch Blast you can apply this effect to each beam, potentially healing multiple targets. However at the cost of a Warlock Spell Slot you can pick and choose which beams deal damage and which will heal</p>
+            <p class="indent"></p>
+        <sheet display="true" />
+        <rules>
+            <select type="Feat Feature" name="Pact Healing" supports="Pact Healing" />
+        </rules>
+    </description>
     </element>
 
 </elements>
